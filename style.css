@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #eee;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+
+.navbar-items-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-items-1 font{
+    font-size: 32px;
+    top: 0px;
+}
+.navabar .navbar-items-2{
+    border-radius: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    
+}
+.navbar-items-2 .navbar-list a{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin:10px;
+   padding-top: 6px;
+}
+.navbar-items-2 .navbar-list a:hover{
+    background-color: green;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+   color: white; 
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+#short-videos,#long-videos,#gaming,#football-edits,#e-commerce,#anime,#color-grading,#documentary-style,#ads{
+    border: 0px solid;
+    
+    margin: 10px auto;
+    background-color: #eee;
+    
+    width:100%;
+}
+#short-videos .container .box-1 h3,#long-videos .container .box-1 h3,#gaming .container .box-1 h3,#football-edits .container .box-1 h3,#e-commerce .container .box-1 h3,#anime .container .box-1 h3,#color-grading .container .box-1 h3,#documentary-style .container .box-1 h3,#ads .container .box-1 h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#short-videos .heading font,#long-videos .heading font,#gaming .heading font,#football-edits .heading font,#e-commerce .heading font,#anime .heading font,#color-grading .heading font,#documentary-style .heading font,#ads .heading font{
+    font-size: 40px;  
+}
+#short-videos .heading,#long-videos .heading,#gaming .heading,#football-edits .heading,#e-commerce .heading,#anime .heading,#color-grading .heading,#documentary-style .heading,#ads .heading{
+    margin-top: 20px;
+    
+}
+
+#short-videos .container,#long-videos .container,#gaming .container,#football-edits .container,#e-commerce .container,#anime .container,#color-grading .container,#documentary-style .container,#ads .container{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid;
+
+
+}
+#short-videos .container .box-2,#long-videos .container .box-2,#gaming .container .box-2,#football-edits .container .box-2,#e-commerce .container .box-2,#anime .container .box-2,#color-grading .container .box-2,#documentary-style .container .box-2,#ads .container .box-2{
+    width: 50%;
+}
+#short-videos .container .box-2 ul li,#long-videos .container .box-2 ul li,#gaming .container .box-2 ul li,#football-edits .container .box-2 ul li,#e-commerce .container .box-2 ul li,#anime .container .box-2 ul li,#color-grading .container .box-2 ul li,#documentary-style .container .box-2 ul li,#ads .container .box-2 ul li{
+    list-style: none;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+    cursor: pointer;
+    
+}
+#short-videos .container .box-2 ul li:hover,#long-videos .container .box-2 ul li:hover,#gaming .container .box-2 ul li:hover,#football-edits .container .box-2 ul li:hover,#e-commerce .container .box-2 ul li:hover,#anime .container .box-2 ul li:hover,#color-grading .container .box-2 ul li:hover,#documentary-style .container .box-2 ul li:hover,#ads .container .box-2 ul li:hover{
+    background-color: green;
+    color: white;
+}
+#spacing-1,#spacing-2,#spacing-3,#spacing-4,#spacing-5,#spacing-6,#spacing-7,#spacing-8{
+    border: 0px solid;
+    height: 75px;
+    width:100%;
+    
+}
+@media (max-width:1000px){
+    
+    .navbar-items-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    
+    }
+    .navbar-items-2 .navbar-list a{
+        width: 11.11%;
+        height: auto;
+        text-align: center;
+        border-radius: 5px;
+        margin:10px;
+       padding-top: 5px;
+       font-size: 12px;
+    }
+    .navbar-items-2 .navbar-list a:hover{
+        background-color: green;
+        color:white;
+    }
+    #short-videos .container .box-1 video,#long-videos .container .box-1 video,#gaming .container .box-1 video,#football-edits .container .box-1 video,#e-commerce .container .box-1 video,#anime .container .box-1 video,#ads .container .box-1 video,#documentary-style .container .box-1 video{
+        width:100%;
+        
+    }
+
+    #short-videos .container .box-2 ul li,#long-videos .container .box-2 ul li,#gaming .container .box-2 ul li,#football-edits .container .box-2 ul li,#e-commerce .container .box-2 ul li,#anime .container .box-2 ul li,#ads .container .box-2 ul li,#documentary-style .container .box-2 ul li{
+        list-style: none;
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 25px;
+        padding: 20px;
+        cursor: pointer;
+        
+    }
+    #spacing-1{
+        border: 0px solid;
+        height: 100px;
+        width:100%;
+    }
+    #spacing-2,#spacing-3,#spacing-4,#spacing-5,#spacing-6,#spacing-7,#spacing-8{
+        border: 0px solid;
+        height: 0px;
+        width:100%;
+    }
+    body{
+    
+        width: 100vh;
+    }
+   
+}
