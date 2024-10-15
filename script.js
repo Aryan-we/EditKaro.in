@@ -5,7 +5,7 @@ function func1(){
 }
 function func2(){
     document.getElementById("s-head").innerText="Video 2";
-    document.getElementById("svideo").src="https://drive.google.com/file/d/12DKvqdCPlauiWfQxAFlfANfOa19iT4Cn/view?usp=drive_link";
+    document.getElementById("svideo").src="./short videos/video 2.mp4";
 }
 function func3(){
     document.getElementById("s-head").innerText="Video 3";
