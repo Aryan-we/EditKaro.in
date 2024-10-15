@@ -90,6 +90,9 @@ body{
 #short-videos .container .box-2,#long-videos .container .box-2,#gaming .container .box-2,#football-edits .container .box-2,#e-commerce .container .box-2,#anime .container .box-2,#color-grading .container .box-2,#documentary-style .container .box-2,#ads .container .box-2{
     width: 50%;
 }
+#short-videos .container .box-1,#long-videos .container .box-1,#gaming .container .box-1,#football-edits .container .box-1,#e-commerce .container .box-1,#anime .container .box-1,#color-grading .container .box-1,#documentary-style .container .box-1,#ads .container .box-1{
+    width: 50%;
+}
 #short-videos .container .box-2 ul li,#long-videos .container .box-2 ul li,#gaming .container .box-2 ul li,#football-edits .container .box-2 ul li,#e-commerce .container .box-2 ul li,#anime .container .box-2 ul li,#color-grading .container .box-2 ul li,#documentary-style .container .box-2 ul li,#ads .container .box-2 ul li{
     list-style: none;
     background-color: #fff;
@@ -131,15 +134,9 @@ body{
     }
     #short-videos .container .box-1 video,#long-videos .container .box-1 video,#gaming .container .box-1 video,#football-edits .container .box-1 video,#e-commerce .container .box-1 video,#anime .container .box-1 video,#ads .container .box-1 video,#documentary-style .container .box-1 video,#color-grading .container .box-1 video{
 
-        width: 90%;
+        width: 100%;
         
     }
-    #short-videos .container .box-2,#long-videos .container .box-2,#gaming .container .box-2,#football-edits .container .box-2,#e-commerce .container .box-1 video,#anime .container .box-2,#ads .container .box-2,#documentary-style .container .box-2,#color-grading .container .box-2{
-
-        width:100%;
-        
-    }
-
     #short-videos .container .box-2 ul li,#long-videos .container .box-2 ul li,#gaming .container .box-2 ul li,#football-edits .container .box-2 ul li,#e-commerce .container .box-2 ul li,#anime .container .box-2 ul li,#ads .container .box-2 ul li,#documentary-style .container .box-2 ul li{
         list-style: none;
         background-color: #fff;
