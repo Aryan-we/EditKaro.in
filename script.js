@@ -71,7 +71,7 @@ function func17(){
 }
 function func18(){
     document.getElementById("d-head").innerText="Video 2";
-    document.getElementById("dvideo").src="./document style/self improvement.mp4";
+    document.getElementById("dvideo").src="./document style/Self Improvement.mp4";
 }
 function func19(){
     document.getElementById("ads-head").innerText="Video 1";
