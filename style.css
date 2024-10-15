@@ -131,7 +131,8 @@ body{
         background-color: green;
         color:white;
     }
-    #short-videos .container .box-1 video,#long-videos .container .box-1 video,#gaming .container .box-1 video,#football-edits .container .box-1 video,#e-commerce .container .box-1 video,#anime .container .box-1 video,#ads .container .box-1 video,#documentary-style .container .box-1 video{
+    #short-videos .container .box-1 video,#long-videos .container .box-1 video,#gaming .container .box-1 video,#football-edits .container .box-1 video,#e-commerce .container .box-1 video,#anime .container .box-1 video,#ads .container .box-1 video,#documentary-style .container .box-1 video,#color-grading .container .box-1 video{
+
         width:100%;
         
     }
