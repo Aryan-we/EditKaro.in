@@ -97,7 +97,7 @@ body{
     margin: 30px;
     padding: 30px;
     cursor: pointer;
-    
+    width: 50%;
 }
 #short-videos .container .box-2 ul li:hover,#long-videos .container .box-2 ul li:hover,#gaming .container .box-2 ul li:hover,#football-edits .container .box-2 ul li:hover,#e-commerce .container .box-2 ul li:hover,#anime .container .box-2 ul li:hover,#color-grading .container .box-2 ul li:hover,#documentary-style .container .box-2 ul li:hover,#ads .container .box-2 ul li:hover{
     background-color: green;
