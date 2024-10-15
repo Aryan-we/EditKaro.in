@@ -145,18 +145,12 @@ body{
         cursor: pointer;
         
     }
-    #spacing-1{
+    #spacing-1,#spacing-2,#spacing-3,#spacing-4,#spacing-5,#spacing-6,#spacing-7,#spacing-8{
         border: 0px solid;
         height: 100px;
         width:100%;
     }
-    #spacing-2,#spacing-3,#spacing-4,#spacing-5,#spacing-6,#spacing-7,#spacing-8{
-        border: 0px solid;
-        height: 0px;
-        width:100%;
-    }
     body{
-    
         width: 100vh;
     }
    
