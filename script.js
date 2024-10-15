@@ -83,6 +83,6 @@ function func20(){
 }
 function func21(){
     document.getElementById("ads-head").innerText="Video 3";
-    document.getElementById("adsvideo").src="./ads/Gta V Game Maza Bank .mp4";
+    document.getElementById("adsvideo").src="./ads/Gta V Game Maza Bank.mp4";
 }
 
