@@ -120,9 +120,8 @@ body{
 }
 @media (max-width:1000px){
     
-    .navbar-items-1{
+    .navbar-items-1 .nav-1{
         font-size: 10px;
-    
     }
     .navbar-items-1 .nav-2{
     width: 40%;
