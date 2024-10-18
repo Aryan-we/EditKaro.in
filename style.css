@@ -11,12 +11,19 @@
     left: 0px;
     z-index: 100;
 }
-
 .navbar-items-1{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
+}
+.navbar-items-1 .nav-2{
+    width: 40%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.navbar-items-1 .nav-2 ul li:hover{
+   color: blue;
 }
 .navbar-items-1 font{
     font-size: 32px;
