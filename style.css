@@ -121,12 +121,12 @@ body{
 @media (max-width:1000px){
     
     .navbar-items-1 .nav-1 font{
-        font-size: 10px;
+        font-size: 13px;
     }
     .navbar-items-1 .nav-2{
     width: 60%;
     font-family:'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 12px;
 }
     .navbar-items-2 .navbar-list a{
         width: 10%;
